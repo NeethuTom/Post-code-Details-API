@@ -1,7 +1,7 @@
 # Post-code-details-API
 This is an API to add and fetch new post code details in the system.
 
-# Project description
+## Project description
 This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and MongoDB. Application implements below functionalities:
   1.Add post code details 
   2.Fetch postcode for given suburb
