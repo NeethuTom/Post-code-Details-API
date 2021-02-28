@@ -1,5 +1,5 @@
 # Post-code-details-API
-This is an API to add and fetch new post code details in the system.
+This is an API to add new and fetch  post code/suburb details in the system.
 
 
 ## Project description
