@@ -27,10 +27,10 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
     db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})<br/>
   
   ### 2.Building the maven project
-  mvn clean package
+    mvn clean package
   
   ### 3.Running 
-  java -jar target/postcode-details-api-0.0.1-SNAPSHOT.jar
+    java -jar target/postcode-details-api-0.0.1-SNAPSHOT.jar
   
   
   ## How it works?
