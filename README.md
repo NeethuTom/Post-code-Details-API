@@ -1,13 +1,14 @@
 # Post-code-details-API
 This is an API to add and fetch new post code details in the system.
 
+
 ## Project description
 This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and MongoDB. Application implements below functionalities:
   1.Add post code details 
   2.Fetch postcode for given suburb
   3.Fetch suburbs for given postcode
   
- # Tools Used in this Tutorial
+ ## Tools Used in this Tutorial
   Java 8
   Spring Boot
   Maven
@@ -15,8 +16,8 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   Swagger
   Postman
   
-  # Steps to build and run the project
-  # 1.Setting up Mongo db
+  ## Steps to build and run the project
+  ### 1.Setting up Mongo db
   1.Install Mongodb locally.
   2.Open a command prompt window and direct it to the bin folder inside the MongoDB folder path.
   3.Create the directory where MongoDB will store its files
@@ -25,15 +26,16 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   6.Enable access control:In the Mongo shell, type “use db_name”, & add the following access control roles to it.
     db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})
   
-  # 2.Building the maven project
+  ### 2.Building the maven project
   mvn clean package
   
-  # 3.Running 
+  ### 3.Running 
   java -jar target/postcode-details-api-0.0.1-SNAPSHOT.jar
   
-  # How it works?
+  
+  ## How it works?
   This can be tested using PostMan.
-    # 1.Add post code details
+   ## 1.Add post code details
       Request URL - POST : http://localhost:8080/v1/postcodeDetails/addPostcodeDetails
       Request Body : 
                     {
