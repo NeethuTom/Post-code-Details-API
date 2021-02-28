@@ -17,14 +17,14 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   Postman
   
   ## Steps to build and run the project
-  ### 1.Setting up Mongo db
-  1.Install Mongodb locally.
-  2.Open a command prompt window and direct it to the bin folder inside the MongoDB folder path.
-  3.Create the directory where MongoDB will store its files
-  4.Start the MongoDB daemon by running “mongod” in the Command Prompt
-  5.Open another Command prompt window while the MongoDB daemon is running and type “mongo” to connect to MongoDB using the Mongo Shell.
-  6.Enable access control:In the Mongo shell, type “use db_name”, & add the following access control roles to it.
-    db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})
+  ### 1.Setting up Mongo db<br/>
+  1.Install Mongodb locally.<br/>
+  2.Open a command prompt window and direct it to the bin folder inside the MongoDB folder path.<br/>
+  3.Create the directory where MongoDB will store its files<br/>
+  4.Start the MongoDB daemon by running “mongod” in the Command Prompt<br/>
+  5.Open another Command prompt window while the MongoDB daemon is running and type “mongo” to connect to MongoDB using the Mongo Shell.<br/>
+  6.Enable access control:In the Mongo shell, type “use db_name”, & add the following access control roles to it.<br/>
+    db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})<br/>
   
   ### 2.Building the maven project
   mvn clean package
