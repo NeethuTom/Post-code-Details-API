@@ -24,7 +24,7 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   4.Start the MongoDB daemon by running “mongod” in the Command Prompt<br/>
   5.Open another Command prompt window while the MongoDB daemon is running and type “mongo” to connect to MongoDB using the Mongo Shell.<br/>
   6.Enable access control:In the Mongo shell, type “use db_name”, & add the following access control roles to it.<br/>
-      db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})<br/>
+        db.createUser({ user: "root",pwd:  "root", roles: [ { role: "readWrite", db: "postCodeDetails" }]})<br/>
   
   ### 2.Building the maven project
     mvn clean package
