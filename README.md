@@ -8,13 +8,13 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   2.Fetch postcode for given suburb<br/>
   3.Fetch suburbs for given postcode<br/>
   
- ## Tools Used
-  Java 8
-  Spring Boot
-  Maven
-  MongoDB
-  Swagger
-  Postman
+ ## Tools Used<br/>
+  Java 8<br/>
+  Spring Boot<br/>
+  Maven<br/>
+  MongoDB<br/>
+  Swagger<br/>
+  Postman<br/>
   
   ## Steps to build and run the project
   ### 1.Setting up Mongo db<br/>
