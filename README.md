@@ -17,8 +17,8 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   Postman<br/>
   
   ## Steps to build and run the project
-  ### 1.Setting up Mongo db<br/>
-  1.Install Mongodb locally.<br/>
+  ### 1.Setting up MongoDB<br/>
+  1.Install MongoDB locally.<br/>
   2.Open a command prompt window and direct it to the bin folder inside the MongoDB folder path.<br/>
   3.Create the directory where MongoDB will store its files<br/>
   4.Start the MongoDB daemon by running “mongod” in the Command Prompt<br/>
