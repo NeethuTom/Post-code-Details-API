@@ -35,17 +35,17 @@ This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and Mong
   
   ## How it works?
   This can be tested using PostMan.
-   ## 1.Add post code details
+  ### 1.Add post code details
       Request URL - POST : http://localhost:8080/v1/postcodeDetails/addPostcodeDetails
       Request Body : 
                     {
                         "postCode":"3000",
                         "suburb": "Melbourne"
                     }
-    # 2.Fetch postcode for given suburb
+   ### 2.Fetch postcode for given suburb
       Request URL - GET : http://localhost:8080/v1/postcodeDetails/searchBySuburb/Melbourne
       
-    # 3.Fetch suburbs for given postcode
+   ### 3.Fetch suburbs for given postcode
       Request URL - GET : http://localhost:8080/v1/postcodeDetails/searchByPostCode/3000
     
 
