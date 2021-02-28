@@ -3,10 +3,10 @@ This is an API to add new and fetch  post code/suburb details in the system.
 
 
 ## Project description
-This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and MongoDB. Application implements below functionalities:
-  1.Add post code details 
-  2.Fetch postcode for given suburb
-  3.Fetch suburbs for given postcode
+This is a simple Demo of using Java8, Spring Boot , Rest API using JSON and MongoDB. Application implements below functionalities:<br/>
+  1.Add post code details <br/>
+  2.Fetch postcode for given suburb<br/>
+  3.Fetch suburbs for given postcode<br/>
   
  ## Tools Used
   Java 8
